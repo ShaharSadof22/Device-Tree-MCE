@@ -1,0 +1,33 @@
+.about{
+    text-align: center;
+    max-width: 650px;
+    margin-top: 40px;
+
+    .usb{
+        width: 200px;
+        margin: 40px;
+    }
+    .pc{
+        width: 200px;
+        margin: 40px;
+    }
+    
+    h2{
+        color: #383838;
+        font-family: montserrat-medium;
+    }
+    p{
+        color: #676767;
+        font-family: montserrat-regular;
+    }
+    a{
+        color: #0014ff;
+        text-decoration: none;
+        font-family: montserrat-medium;
+        transition: color .2s;
+
+        &:hover{
+            color: #4857ff;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.nav-bar{
+    width: 100vw;
+    height: 50px;
+    width: 100vw;
+    background-color: $navbar-bgc;
+
+    .logo{
+        font-family: hand-write;
+        margin: 6px 0 10px 36px;
+        color: $red-txt;
+        font-size: 31px;
+    }
+    .usb-icon{
+        color: $red-txt;
+        font-size: 19px;
+        padding: 19px 0 0 10px;
+    }
+    .nav-items{
+        .nav-item{
+            font-family: montserrat-regular;
+            padding: 16px;
+            position: relative;
+            text-decoration: none;
+            color: $red-txt;
+            transition: background-color .3s;
+
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.151);
+            }
+            &:last-child{
+                padding: 16px 26px 0 20px;
+            }
+        }
+        .active-page{
+            border-bottom: solid 2px #65000094;
+            color: #420000;
+        }
+    }
+}

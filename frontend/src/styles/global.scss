@@ -1,0 +1,17 @@
+// Setup
+@import "setup/variables.scss";
+@import "./setup/typography";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/base.scss";
+
+// Components
+@import "cmps/nav-bar.scss";
+@import "cmps/device-list.scss";
+@import "cmps/device-details.scss";
+
+
+//views
+@import "views/device-app.scss";
+@import "views/about.scss";
